@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>javascipt</title>
+</head>
+<body>
+<p id="1">hi mannu</p>
+<button id="2">change text</button>
+<p id="3">javascipt is...</p>
+<button id="4">Append text</button>
+<p id="style">This is sample text</p>
+<button id="stylebutton">style it</button>
+<script type="text/javascript">
+
+document.getElementById("2").onclick=function()
+{
+document.getElementById("1").innerHTML="Hi bro";
+}
+document.getElementById("4").onclick=function()
+{
+document.getElementById("3").innerHTML="i think " +document.getElementById("3").innerHTML+"Awesome";
+}
+document.getElementById("stylebutton").onclick=function(){
+
+document.getElementById("style").style.display="none";
+}
+//for changing font,we can use document.getElementById("3").style.fontsize="50px";
+</script>
+</body>
+</html>
+
+
