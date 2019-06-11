@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>javascipt</title>
+</head>
+<body>
+<p id="1">hi mannu</p>
+<script type="text/javascript">
+//This is a basic javascript by using getElementById
+document.getElementById("1").innerHTML="hello babes";
+</script>
+</body>
+</html>
+
+
