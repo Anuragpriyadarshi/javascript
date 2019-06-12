@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>javascipt</title>
+
+
+
+</style>
+</head>
+<body>
+<input type="text" id="1">
+<button id="text changer">change text</button>
+<p id="2">this is a text</p>
+<script typr="text/javascript">
+document.getElementById("text changer").onclick=function()
+{
+var textenter="";
+textenter=document.getElementById("1").value;
+document.getElementById("2").innerHTML=textenter;
+}
+
+</script>
+</body>
+</html>
+
+
