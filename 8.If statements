@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>javascipt</title>
+
+
+
+</style>
+</head>
+<body>
+<p>what is the login name?</p>
+<input type="text" id="login">
+<button id="log">check fo login</button>
+<script typr="text/javascript">
+document.getElementById("log").onclick=function()
+{
+var check=document.getElementById("login").value;
+var actual="anuragpriyadarshi0299@gmail.com";
+if(check==actual)
+{
+alert("correct");
+}
+else
+{
+alert("try again");
+}
+}
+</script>
+</body>
+</html>
+
+
