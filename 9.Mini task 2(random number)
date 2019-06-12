@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>javascipt</title>
+
+
+
+</style>
+</head>
+<body>
+<p>How many fingers m holding up???</p>
+<input type="text" id="login">
+<button id="log">guess</button>
+<script typr="text/javascript">
+document.getElementById("log").onclick=function()
+{
+var check=document.getElementById("login").value;
+var actual=Math.floor(Math.random()*6);
+if(check==actual)
+{
+alert("huray...correct guess");
+}
+else
+{
+alert("no....The number was "+actual);
+}
+}
+</script>
+</body>
+</html>
+
+
