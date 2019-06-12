@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>javascipt</title>
+</head>
+<body>
+<div id="tweet"></div>
+
+<script type="text/javascript">
+var string="";
+var tweets=["hii there","i love you","just go in hell"];
+for(var i=0;i<tweets.length;i++)
+{
+string=string+"<p>"+tweets[i]+"</p>";
+}
+document.getElementById("tweet").innerHTML=string;;
+</script>
+</body>
+</html>
+
+
