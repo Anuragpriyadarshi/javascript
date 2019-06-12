@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>javascipt</title>
+
+
+
+</style>
+</head>
+<body>
+
+<script typr="text/javascript">
+var myarray=new Array();
+myarray[0]="Anurag";
+myarray[1]="priyadarshi";
+//alert(myarray);
+console.log(myarray);
+var tweet=["hii there","hope you are fine"];
+
+tweet.push("back to work");//inserting new element to array
+alert(tweet[2]);
+console.log(tweet);
+tweet.splice(1,0)//deleting one item starting from position 1
+//tweet.splice(1,1,"go"); to replace content
+//tweet.splice(1,0,"num num); to add content
+</script>
+</body>
+</html>
+
+
